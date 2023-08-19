@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    
+    justify-content: 'me-auto mb-2 mb-lg-0';
+    
+}
+
+.navbar{
+    background:hsl(249, 9%, 85%);
+    text-transform: uppercase;
+    color: #fff;
+}
+.btn{
+    border-radius: 50px;
+    margin: 10px;
+    color: black;
+    text-transform: uppercase;
+    background: blue;
+
+}
+
+
+.content{
+    background:white;
+    color: black;
+}
+
+.hero-game{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    border: 70px;
+    padding: 20px;
+    border-radius: 200px;
+    
+
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    
+    
+}
+ .heading h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.btns{
+    width: 90px;
+    border-radius: 20px;
+    background: #3c0470;
+    color: #fff;
+    margin-left: 5px;
+}
+
+/*table btc */
+.table{
+    background: #3c0470;
+    width: 100%;
+    height: 500%;
+}
+
+.thead-content{
+    text-transform: uppercase;
+    width: 50%;
+    color: blue;
+}
+
+.tbody-content {
+    width: 50%;
+    height: 50%;
+    color: #2ea06b;
+}
+
+
+.coin-bases{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px;
+    
+}
+
+.base-one {
+    display: flex;
+    flex-direction: column;
+    justify-content:first baseline;
+    text-transform: uppercase;
+    margin: 20px;
+    width: 500px;
+    height: 500px;
+
+}
+
+.peter-vote{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    align-items: center;
+}
+.vote h1{
+    color: #3c0470;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
