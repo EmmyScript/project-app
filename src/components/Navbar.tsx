@@ -5,7 +5,7 @@ const Navbar = () => {
     <>
     <nav className="navbar navbar-expand-md navbar-dark bg-primary "  style={{color:"white"}}>
   <div className="container">
-    <a className="navbar-brand" href="#">EMMY awesomes</a>
+    <a className="navbar-brand" href="#">EMMY Shop</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -23,9 +23,9 @@ const Navbar = () => {
           </a>
           <ul className="dropdown-menu">
             <li><a className="dropdown-item" href="#">Action</a></li>
-            <li><a className="dropdown-item" href="#">Another action</a></li>
+            <li><a className="dropdown-item" href="#">view slide show</a></li>
             <li><hr className="dropdown-divider"/></li>
-            <li><a className="dropdown-item" href="#">Something else here</a></li>
+            <li><a className="dropdown-item" href="#">click cart to view list of cart</a></li>
           </ul>
         </li>
        

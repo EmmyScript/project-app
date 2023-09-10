@@ -13,10 +13,7 @@ const btnArr = [
         id: 2,
         btnName: 'logins'
     },
-    {
-        id: 2,
-        btnName: 'save'
-    },
+    
 
 ]
 
@@ -29,11 +26,14 @@ const RegistrationPage = () => {
   return  <React.Fragment>
 <Navbar/>
 <Carousel/>
+
 <div className="container mt-4">
     {
         btnArr.map((btn: any) => (
-            <Button className={`btn btn-secondary ms-2 ${itemValues === btn.btnName ? "btn-color" : ""}`}
+            <Button className={`btn btn-secondary ms-2
+             ${itemValues === btn.btnName ? "btn-color" : ""}`}
             onClick ={() => handleClick(btn)}
+            key={btn.id}
             >
                
                 {btn.btnName}</Button>

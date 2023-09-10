@@ -12,6 +12,7 @@ export const PRODUCTS = [
         productName: "one",
         price:300,
         productImage: horse ,
+        
     },
 
     {
@@ -19,18 +20,21 @@ export const PRODUCTS = [
         productName: "two",
         price:200,
         productImage: layer ,
+        
     },
     {
         id: 3,
         productName: "three",
         price:100,
         productImage: game,
+        
     },
     {
         id: 4,
         productName: "four",
         price:100,
         productImage: heros ,
+        
     },
 
     {
@@ -38,23 +42,27 @@ export const PRODUCTS = [
         productName: "five",
         price:100,
         productImage: peter ,
+        
     },
     {
         id: 6,
-        productName: "six",
+        productName: "ON DND",
         price:100,
         productImage: base,
+        
     },
     {
         id: 7,
-        productName: "one",
-        price:100,
+        productName: "Jerry",
+        price:10000,
         productImage: base ,
+        
     },
     {
         id: 8,
-        productName: "eight",
-        price:100,
+        productName: "EMMY&JA",
+        price:100000,
         productImage: layer ,
+        
     },
 ]
