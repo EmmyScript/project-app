@@ -52,6 +52,7 @@ export const ShopContextProvider = (props: any) => {
     return  setCartItems([...cartItems,{...item,qtty:item.qtty = 1}]);
     }
   };
+  
 
   const removeFromCart = (item: any) => {
 

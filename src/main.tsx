@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom/client'
 import 'bootstrap/dist/css/bootstrap.css';
 import "bootstrap/dist/js/bootstrap.min.js"
 import "./assets/style.css";
-import RegistrationPage from './pages/RegistrationPage.tsx';
+import RegistrationPage from './pages/App.tsx';
 
 //import { ChakraProvider } from '@chakra-ui/react';
 
